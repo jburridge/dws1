@@ -2,7 +2,7 @@
 
 @font-face { 
 	font-family: "GoodDog";
-	src: url('../WebFont.woff');
+	src: url("../fonts/WebFont.woff") format("woff");
 }
 
 
@@ -11,11 +11,7 @@
 
 body {
 	background-color: #FFFDF1;
-	font-family: "Helvetica";
-	font-size: 14px;
-	font-weight: normal;
-	font-style: normal;
-	
+	font: normal normal 14px Helvetica;
 }
 
 #nav {
@@ -39,7 +35,7 @@ ul#nav li {
 	padding: 15px;
 	border-radius: 12px;
 	box-shadow: 8px 8px 20px #666666;
-	opacity: .9;
+	opacity: 0.9;
 	border: 8px solid #FFFFFF;
 }
 
@@ -49,7 +45,9 @@ figure {
 	text-align: center;
 }
 
-
+#imgcont {
+	height: 250px;
+}
 
 /************ Text ************/
 
@@ -64,15 +62,15 @@ h1 {
 	line-height: 1.4em;
 }
 
-a:link {
+/************* Links *************/
+
+a:link, a:visited {
 	color: #000000;
 }
-a:visited {
+a:hover, a:active {
 	color: #FFFDF1;
 }
-a:hover {
-	color: #FFFDF1;
-}
-a:active {
-	color: #FFFDF1;
+
+img:hover {
+	border: 5px solid #FFFFFF;
 }
