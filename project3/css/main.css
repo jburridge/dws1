@@ -13,12 +13,7 @@ body {
 	background:url("../images/bgrep.jpg") repeat center;
 	font: 14px Helvetica, Arial, sans-serif, sans-serif;
 }
-#logo {
-	background:url("../images/icon.png") no-repeat center;
-	width: 100px;
-	height: 100px;
-	float: left;
-}
+
 #nav {
 	list-style-type: none;
 	text-align: center;
@@ -101,6 +96,10 @@ figure {
 /************ Text ************/
 
 h1 {
+	background:url("../images/icon.png") no-repeat left;
+	height: 75px;
+	padding-top: 25px;
+	padding-left: 100px;
 	text-shadow: 3px 3px 3px #325463;
 	font-family: "GoodDog";
 	font-size: 50px;
